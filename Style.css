@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+   background-image: url('C:\Users\PC\Desktop\Html Project\Equipments\chair 1.png');
+   background-size: cover;
+   background-position: center;
+}
+
+ .Container{
+    margin: 10px 100px;
+ }
+ /*Navigation Bar*/
+
+ .Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+ }
+
+ .Menu{
+    display: none;
+ }
+
+ .logo h2{
+    font-size: 16px;
+    font-weight: 500px;
+ }
+
+ .logo h2 span{
+    color: #ff0000;
+    text-decoration: underline;
+ }
+
+ .Navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 18px;
+    list-style: none;
+ }
+
+/* Show Case */
+.Landing{
+    width: 100%;
+    
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ededed ;
+    height: 75vh;  /* Explain: 1vh --> 10px*/
+}
+
+.chair img{
+    width: 400px;
+}
+
+.text-content h3{
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   margin-bottom: 5px;
+   font-size: 16px;
+}
+
+.text-content h1{
+   font-weight: 600px;
+   font-size: 40px;
+   text-decoration: underline;
+   margin-bottom: 18px;
+}
+
+.text-content p{
+   margin-bottom: 15px;
+}
+ 
+.text-content .Price{
+   font-size: 20px;
+   color: #000;
+   margin-top: 25px;
+}
+
+.text-content .Price span{
+   color: #ff0000;
+}
+
+.btn
+{
+   padding: 14px 32px;
+   border: 2px solid #000;
+   background-color: transparent;
+   font-size: 18px;
+   border-radius: 30px;
+}
+
+/*text-paragraph*/
+.text-paragraph p{
+text-align: center;
+margin: 80px 100px;
+font-size: 18px;
+font-style: italic;
+color: gray;
+line-height: 2;
+}
+
+/* Service */
+.Service{
+display: flex;
+align-items: center;
+justify-content: space-between ;
+}
+
+.Service_component h3{
+   margin: 10px 0;
+}
+
+.border-b{
+   border-bottom: 2.5px solid #ff0000;
+   width: 100px;
+   margin-bottom: 10px;
+}
+
+/*Products*/
+.product .newest{
+   text-align: center;
+   margin-top: 150px;
+   font-weight: 500;
+   font-size: 20px;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+.second{
+  margin: 10px auto; 
+}
+
+.product_container{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.product_chair{
+   width: 300px;
+   height: 400px;
+   background: #d9d9d9;
+   padding: 20px 0;
+   margin: 50px;
+}
+
+.product_image img{
+   width: 300px;
+   margin: 40px 0;
+}
+
+.product_chair h1{
+   padding: 10px 0;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+/*Product section*/
+.touch_Container{
+   width: 100%;
+   height: auto;
+   margin-top: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+   background-color: #d9d9d9;
+}
+
+.touch_content h1{
+  font-size: 32px;
+  text-decoration: underline;
+  text-transform: uppercase; 
+}
+
+.touch_content p{
+   font-size: 14px;
+   margin: 12px 0;
+   color: gray;
+}
+
+.touch_image img{
+   width: 250px;
+   padding: 20px;
+}
+
+/* Subscribe */
+
+.subscribe{
+   margin-bottom: 120px;
+}
+.subcribe_input{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin: 30px 0;
+}
+
+.subcribe_input input{
+   padding: 8px 28px;
+}
+.sub_btn{
+   display: flex;
+   justify-content: center;
+   text-decoration: underline;
+}
+
+/* Footer */
+.footer{
+   width: 100%;
+   background-color: #d9d9d9;
+   padding-bottom: 5px;
+}
+
+.footer_Container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 10px 100;
+   padding: 50px;
+}
+.logo p{
+   margin-top: 30px;
+}
+
+.list .border-b{
+   margin-bottom: 20px;
+   
+}
+
+.list ul li{
+   list-style: none;
+   margin: 10px 0;
+}
+
+.list h2{
+   font-size: 18px;
+   font-weight: 500;
+}
+
